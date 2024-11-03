@@ -1,0 +1,65 @@
+  /* General Styles */
+body{
+    color:#3B1E54;
+    background-color:#D4BEE4;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+} 
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #D4BEE4;
+    border-radius: 5px;
+    background-color: #9B7EBD;
+    box-shadow: 0 2px 5px #D4BEE4;
+  }
+a{
+    color:#3B1E54;
+   }
+ 
+.password-toggle {
+    position: absolute;
+    right: 520px; 
+    top:181px; 
+    cursor: pointer;
+  }
+
+  /* Input Field Styles */
+ .grid-container {
+    width: 50%;
+    padding: 4px;
+    margin-bottom: 6px;
+    margin-top:6px;
+    border: 1px solid #D4BEE4;
+    border-radius: 4px;
+  } 
+  
+  /* Button Styles */
+ button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:#3B1E54;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+      width: 90%;
+  }
+  .password-toggle {
+      /* Adjust positioning for smaller screens */
+      right: 10px;
+      top: 10px;
+  }
+}
